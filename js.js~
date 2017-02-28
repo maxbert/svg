@@ -1,0 +1,5 @@
+var w = window.innerWidth;
+var h = window.innerHeight * 0.9;
+var svg = document.getElementsByTagName('svg')[0];
+svg.setAttribute("height",h);
+svg.setAttribute("width",w);
